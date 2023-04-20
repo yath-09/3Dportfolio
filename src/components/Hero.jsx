@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-
+import {Typewriter} from 'react-simple-typewriter';
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
@@ -15,13 +15,12 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText } textsize-10px text-white`}>
+          <h2 className={`${styles.heroHeadText } textsize-5px text-white`}>
             Hi, I'm <span className='text-[#915EFF]'>Yatharth</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-70`}>
-            I develop 3D visuals, user <br className='sm:block hidden' />
-            interfaces and web applications
-          </p>
+          </h2>
+          <h3 className={`${styles.heroSubText} mt-2 text-white-20`}>
+            <span><Typewriter words={[ 'React-Developer','Programmer']} loop={Infinity} cursor={true} cursorColor="#915EFF"/></span>
+          </h3>
         </div>
       </div>
 
