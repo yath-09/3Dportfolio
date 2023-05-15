@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-
+import { FiGithub, FiTwitter, FiLinkedin } from 'react-icons/fi';
 import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { logo, menu, close } from "../assets";
@@ -33,7 +33,7 @@ const Navbar = () => {
         scrolled ? "bg-primary" : "bg-transparent"
       }`}
     >
-      <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
+      <div className='w-full flex justify-between items-center max-w-7xl mx-auto '>
         <Link
           to='/'
           className='flex items-center gap-2'
@@ -46,8 +46,15 @@ const Navbar = () => {
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Yatharth &nbsp;
             <span className='sm:block hidden'> | Ahuja</span>
-          </p>
+          </p><br/>
+      
+
         </Link>
+        <div className='flex gap-10 items-center text-white-30 text-[18px]'>
+          <a href="https://www.linkedin.com/in/yatharth-ahuja-3291b6234/" target="_blank"><FiLinkedin /></a>
+          <a href="https://github.com/yath-09" target="_blank"><FiGithub  /></a>
+          <a href="https://twitter.com/YatharthAhuja9" target="_blank"><FiTwitter /></a>
+          </div>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
             <li
