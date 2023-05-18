@@ -19,12 +19,13 @@ const Hero = () => {
             Hi, I'm <span className='text-[#915EFF]'>Yatharth</span>
           </h2>
           <h3 className={`${styles.heroSubText} mt-2 text-white-20`}>
-            <span><Typewriter words={[ "Web-Developer",'React','Programmer']} loop={Infinity} cursor={true} cursorColor="#915EFF"/></span>
+            <span><Typewriter words={[ "Web-Developer",'React','Three.js','Next.js','Programmer']} loop={Infinity} cursor={true} cursorColor="#915EFF"/></span>
           </h3>
         </div>
+        
       </div>
 
-      {/* <ComputersCanvas />
+      <ComputersCanvas />
 
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
@@ -42,7 +43,7 @@ const Hero = () => {
             />
           </div>
         </a>
-      </div> */}
+      </div> 
     </section>
   );
 };
