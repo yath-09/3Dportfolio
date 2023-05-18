@@ -47,12 +47,16 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "React Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
+    },
+    {
+      title: "Three.Js",
+      icon: creator,
     },
     // {
     //   title: "Content Creator",
@@ -214,7 +218,7 @@ import {
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "#about",
     },
   ];
   
