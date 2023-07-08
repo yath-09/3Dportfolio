@@ -1,5 +1,6 @@
 
 import {
+    cpp,
     mobile,
     backend,
     creator,
@@ -36,6 +37,10 @@ import {
       title: "Projects",
     },
     {
+      id: "Experience",
+      title: "Experience",
+    },
+    {
       id: "contact",
       title: "Contact",
     },
@@ -51,7 +56,7 @@ import {
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Chip Designing",
       icon: backend,
     },
     {
@@ -98,8 +103,8 @@ import {
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
+      name: "C++",
+      icon: cpp,
     },
     {
       name: "Three JS",
@@ -121,16 +126,26 @@ import {
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Internship Trainee",
+      company_name: "Cadence Design Systems",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "JUN 2023 - JUL 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built algorithms for macro and standard-cell placement using Innovus tool improving efficiency by 60%.",
+        "Worked on placement & routing of parallel rails improving spacing and avoiding excessive coupling of chips.",
+        "Improved Multi-level routing of chips cell using instances and object overlapping and merging."
+      ],
+    },
+    {
+      title: "Software Technician",
+      company_name: "UAS-DTU",
+      icon: shopify,
+      iconBg: "#383E56",
+      date: "JAN 2022 - APR 2022",
+      points: [
+        "Designed UAV's (quadcopter ,hexacopter) with proficiency in indoor & outdoor 3-D navigation",
+        "Implemented video processing and image capturingin UAV's using Open CV and Hand detection's modules."
       ],
     },
 
