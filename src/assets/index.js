@@ -21,10 +21,12 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import cpp from "./tech/cpp.png";
-
+import blogo from "./Blogo.png"
+import genius from "./Genius.png"
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
+import supamaker from "./company/supamaker.png"
 import tesla from "./company/tesla.png";
 
 import carrent from "./carrent.png";
@@ -61,5 +63,9 @@ export {
   jobit,
   tripguide,
   gericht,
-  cpp
+  cpp,
+  supamaker,
+  blogo,
+  genius,
+  
 };

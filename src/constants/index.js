@@ -25,6 +25,9 @@ import {
     jobit,
     tripguide,
     threejs,
+    supamaker,
+    blogo,
+    genius,
   } from "../assets";
   
   export const navLinks = [
@@ -40,29 +43,22 @@ import {
       id: "Experience",
       title: "Experience",
     },
-    {
-      id: "contact",
-      title: "Contact",
-    },
   ];
   
   const services = [
     {
-      title: "Web Developer",
+      title: "MERN",
       icon: web,
     },
     {
-      title: "React Developer",
+      title: "Nextjs",
       icon: mobile,
     },
     {
-      title: "Chip Designing",
+      title: "TypeScript",
       icon: backend,
     },
-    {
-      title: "Three.Js",
-      icon: creator,
-    },
+    
     // {
     //   title: "Content Creator",
     //   icon: creator,
@@ -82,18 +78,18 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    // {
-    //   name: "TypeScript",
-    //   icon: typescript,
-    // },
+    {
+      name: "TypeScript",
+      icon: typescript,
+    },
     {
       name: "React JS",
       icon: reactjs,
     },
-    // {
-    //   name: "Redux Toolkit",
-    //   icon: redux,
-    // },
+    {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
     {
       name: "Tailwind CSS",
       icon: tailwind,
@@ -106,10 +102,10 @@ import {
       name: "C++",
       icon: cpp,
     },
-    {
-      name: "Three JS",
-      icon: threejs,
-    },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
       name: "git",
       icon: git,
@@ -118,13 +114,25 @@ import {
     //   name: "figma",
     //   icon: figma,
     // },
-    // {
-    //   name: "docker",
-    //   icon: docker,
-    // },
+    // 
+    {
+      name: "docker",
+      icon: docker,
+    },
   ];
   
   const experiences = [
+    {
+      title: "Full-stack Developer",
+      company_name: "SupaMakers Limited",
+      icon: supamaker,
+      iconBg: "#383E56",
+      date: "March 2024 - Present",
+      points: [
+        "Working on Full-stack applications and delivering it to the clients as per their requirements.",
+        "Tech Stack- Nextjs,Typescript,React-Grids",
+      ],
+    },
     {
       title: "Internship Trainee",
       company_name: "Cadence Design Systems",
@@ -150,7 +158,6 @@ import {
     },
 
   ];
-  
   const testimonials = [
     {
       testimonial:
@@ -180,6 +187,58 @@ import {
   
   const projects = [
     {
+      name: "Dev-Room",
+      description:
+        "A pair programming platform where users can join and connect with other developers across the world in their online virtual rooms.",
+      tags: [
+        {
+          name: "Next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: gericht,
+      source_code_link: "https://yath-09.github.io/Gericht_Restaurant/",
+    },
+    {
+      name: "Blogo",
+      description:
+        "A blogging website where users can share their expertise and knowledge through blogs.",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Javascript",
+          color: "green-text-gradient",
+        },
+        
+      ],
+      image: blogo,
+      source_code_link: "https://blogo-4fx2.onrender.com/sign-in",
+    },
+    {
+      name: "Genius",
+      description:
+        "A AI Saas platform where user can generate AI images,videos,code,music.",
+      tags: [
+        {
+          name: "Next",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Typescript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: genius,
+      source_code_link: "https://github.com/yath-09/Ai-Platform",
+    },
+    {
       name: "Gericht-Restaurant",
       description:
         "Web-based platform that allows users to browse through menu of Restaurant and explore the food inside it.",
@@ -195,45 +254,6 @@ import {
       ],
       image: gericht,
       source_code_link: "https://yath-09.github.io/Gericht_Restaurant/",
-    },
-    {
-      name: "Virtual-Keyboard",
-      description:
-        "The project represents a Virtual Keyboard. The keyboard contains alpha numeric keys with 4-5 special characters, backspace and Caps lock key.",
-      tags: [
-        {
-          name: "OpenCV",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Python",
-          color: "green-text-gradient",
-        },
-        
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/yath-09/Virtual-Keyboard",
-    },
-    {
-      name: "Personal-portfolio",
-      description:
-        "My personal portfolio web-site using react and Tail-wind CSS. Used ThreeJs for 3-d models and animations.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Tailwind CSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "ThreeJs",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: tripguide,
-      source_code_link: "#about",
     },
   ];
   
