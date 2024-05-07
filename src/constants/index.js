@@ -28,6 +28,8 @@ import {
     supamaker,
     blogo,
     genius,
+    devroom,
+    homing,
   } from "../assets";
   
   export const navLinks = [
@@ -130,7 +132,7 @@ import {
       date: "March 2024 - Present",
       points: [
         "Working on Full-stack applications and delivering it to the clients as per their requirements.",
-        "Tech Stack- Nextjs,Typescript,React-Grids",
+        "Tech Stack- Nextjs,Typescript",
       ],
     },
     {
@@ -200,8 +202,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: gericht,
-      source_code_link: "https://yath-09.github.io/Gericht_Restaurant/",
+      image: devroom,
+      source_code_link: "https://chatroom-production-0afc.up.railway.app/",
     },
     {
       name: "Blogo",
@@ -239,6 +241,23 @@ import {
       source_code_link: "https://github.com/yath-09/Ai-Platform",
     },
     {
+      name: "Homing",
+      description:
+        "A Platform where you can find best properties for your vacations and stays.",
+      tags: [
+        {
+          name: "MERN",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Redux",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: homing,
+      source_code_link: "https://github.com/yath-09/realEstate",
+    },
+    {
       name: "Gericht-Restaurant",
       description:
         "Web-based platform that allows users to browse through menu of Restaurant and explore the food inside it.",
@@ -257,4 +276,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects};
