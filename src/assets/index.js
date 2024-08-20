@@ -33,6 +33,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import gericht from "./gericht.png";
+import dzynkraft from "./company/dzynkraft.png"
 export {
   logo,
   backend,
@@ -69,5 +70,6 @@ export {
   genius,
   devroom,
   homing,
+  dzynkraft,
   
 };

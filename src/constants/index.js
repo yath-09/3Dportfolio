@@ -30,6 +30,7 @@ import {
     genius,
     devroom,
     homing,
+    dzynkraft,
   } from "../assets";
   
   export const navLinks = [
@@ -126,10 +127,23 @@ import {
   const experiences = [
     {
       title: "Full-stack Developer",
+      company_name: "Stealth AI Startup",
+      icon: dzynkraft,
+      iconBg: "#383E56",
+      date: "JUNE 2024 - Present",
+      points: [
+        "Implemented Google Maps with reduced costs,API pings,enhancing loading efficiency across routes",
+        "Designed SignIn/Up flow with OTP based validations, handling resends and preventing DDOS attacks",
+        "Utilized low latency distributed systems,security first, cost saving and loose-coupling architecture",
+        "Worked with APIs on AWS Lambda,API Gateways with DynamoDB,AWS S3,CDNs and DRM"
+      ],
+    },
+    {
+      title: "Full-stack Developer",
       company_name: "SupaMakers Limited",
       icon: supamaker,
       iconBg: "#383E56",
-      date: "March 2024 - Present",
+      date: "FEB 2024 - MAY 2024",
       points: [
         "Working on Full-stack applications and delivering it to the clients as per their requirements.",
         "Tech Stack- Nextjs,Typescript",
