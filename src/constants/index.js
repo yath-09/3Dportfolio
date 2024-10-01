@@ -217,7 +217,7 @@ import {
         },
       ],
       image: devroom,
-      source_code_link: "https://chatroom-production-0afc.up.railway.app/",
+      source_code_link: "https://marvelous-yeot-125f3b.netlify.app/",
     },
     {
       name: "Blogo",
